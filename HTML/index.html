@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Ancer - Web Developer</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Hamburger menu for mobile phone "in mobile three dots are present that's why it was used in this code" -->
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+
+
+
+
+            <div class="theme-switcher">
+                <label for="theme-toggle" class="switch-label">
+                    <input type="checkbox" id="theme-toggle" class="switch-checkbox">
+                    <span class="slider"></span>
+                </label>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Sunny Ancer</h1>
+
+                <p class="hero-subtitle">Creative Web Developer & UI/UX Enthusiast</p>
+                <p>I design and build beautiful , responsive, and user-friendly websites and applications</p>
+
+            </div>
+        </section>
+        <!-- About Page -->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+
+
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="../image/profile_picture.jpg" alt="A professional Headshot of Sunny Ancer">
+
+                    </div>
+                    <div class="about-text">
+
+
+
+                        <p>Hello! I'm Sunny, a passionate and creative web developer based in India. My journey into
+                            the
+                            world
+                            of code began with a fascination for how elegant design and powerful technology could
+                            come
+                            together
+                            to create amazing digital experiences.
+                        </p>
+                        <p>
+                            I specialize in front-end development, with a strong command of HTML, CSS, and
+                            JavaScript. I
+                            love
+                            bringing ideas to life in the browser and am always eager to learn new technologies and
+                            frameworks
+                            to enhance my skills. When I'm not coding, you can find me exploring the outdoors,
+                            reading a
+                            good
+                            book, or working on personal projects that challenge me to think outside the box.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Project Section -->
+        <section id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-container">
+
+                    <div class="project-card">
+                        <img src="../image/project_placeholder.jpg" alt="A screenshot or mockup of Project One"
+                            class="project-image">
+                        <div class="Project Info">
+                            <h3>Project One Title</h3>
+                            <p>
+                                A brief and compelling description of the project, highlighting the key
+                                technologies used and the problem it solves. Keep it to 2-3 sentences.
+                            </p>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">View Code</a>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Card 2 (Another Project) -->
+                    <div class="project-card">
+                        <img src="../image/project_placeholder2.jpg" alt="A screenshot">
+                        <div class="project-info">
+                            <h3>Project Two Title</h3>
+                            <p>A brief and compelling description of the project </p>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">View Code</a>
+
+                        </div>
+                    </div>
+
+                    <!-- Card 3 (Another Project) -->
+                    <div class="project-card">
+                        <img src="../image/project_placeholder.jpg" alt="A screenshot or mockup">
+                        <div class="project-info">
+                            <h3>Project Three Title</h3>
+                            <p>A brief and compelling description of the project</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">View code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+
+                <h2>Contact Me</h2>
+                <p>I'm always open to discussing new projects or opportunities. Feel free to reach out!</p>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+                    <label for="messages">Message</label>
+                    <textarea id="messages" name="user_messages" rows="5" placeholder="Your Message"
+                        required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 SunnyAncer. All Rights Reserved.</p>
+            <ul>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="../JavaScript/script.js"></script>
+</body>
+
+</html>
