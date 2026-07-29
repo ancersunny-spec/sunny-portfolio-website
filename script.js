@@ -2,26 +2,26 @@ const projects = [
   {
     title: "Portfolio Project (This Website)",
     description: "A responsive personal portfolio built from scratch using HTML, CSS, and vanilla JavaScript. Features a dynamic theme switcher and is populated by a Java Script data structure",
-    imageUrl: "./images/portfolio-projectpreview.jpg",
-    liveUrl: "https://your-live-site.com",
-    codeUrl: "https://github.com/your-username/you-repo-name"
+    imageUrl: "./image/personal-portfolio.jpg",
+    liveUrl: "https://sunny-personal-portfoli.netlify.app/",
+    codeUrl: "https://github.com/ancersunny-spec/sunny-portfolio-website.git"
   },
 
   {
     title: "E-commerce Website Concept",
     description: "A concept design and front-end implementation for an e-commerce platform. Focused on a clean UI, responsive product grids, and a streamlined checkout process using modern CSS techniques.",
-    imageUrl: "./images/ecommerce-project-preview.jpg", // Make sure to add this image to your 'images' folder!
+    imageUrl: "./image/project_placeholder.jpg", // Make sure to add this image to your 'images' folder!
     liveUrl: "#", // Use "#" if there's no live link yet
     codeUrl: "https://github.com/your-username/ecommerce-repo" // Replace with your repo link
   },
 
   {
 
-    title: "Task Management App",
-    description: "A client-side task management application built with vanilla JavaScript. Allows users to add, edit, delete, and mark tasks as complete, with all data saved to localStorage.",
-    imageUrl: "./images/task-app-preview.jpg", // Add this image to your 'images' folder
+    title: "Aurum - New Year Countdown",
+    description: "Aurum New Year Countdown is a modern and interactive web experience that counts down to the New Year, with a focus on elegant design, smooth animations, and engaging features for setting goals and New Year resolutions.",
+    imageUrl: "./image/aurum-preview.jpg", // Add this image to your 'images' folder
     liveUrl: "#",
-    codeUrl: "https://github.com/your-username/task-app-repo" // Replace with your repo link
+    codeUrl: "https://github.com/ancersunny-spec/next-year-countdown.git" // Replace with your repo link
   }
 ];
 
