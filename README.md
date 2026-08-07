@@ -45,43 +45,13 @@ Portfolio/
 │   └── icons/
 └── README.md
 
-````
-
----
-
-## 🚀 Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/ancersunny-spec/sunny-portfolio-website.git
-````
-
-Navigate to the project folder:
-
-```bash
-cd sunny-portfolio-website
-```
-
-Open `index.html` in your browser.
-
----
-
 ## 📸 Preview
 
-> Add screenshots of your portfolio here.
+<img width="1516" height="692" alt="personal-portfolio" src="https://github.com/user-attachments/assets/cdffab93-ecd4-4530-b2e8-408f3d6fdd5a" />
 
-Example:
-
-```
-assets/images/preview.png
-```
-
----
 
 ## 🎯 Future Improvements
 
-* Dark Mode
 * Project Filtering
 * Blog Section
 * Download Resume Button
@@ -102,8 +72,8 @@ I'm a Computer Science student passionate about Frontend Development and creatin
 ## 📫 Connect With Me
 
 * GitHub: https://github.com/ancersunny-spec
-* LinkedIn: *Add your LinkedIn profile here*
-* Email: *Add your email here*
+* LinkedIn: *www.linkedin.com/in/sunnyancer*
+* Email: *ancersunny@gmail.com*
 
 ---
 
@@ -115,9 +85,4 @@ It motivates me to build more amazing projects!
 
 ---
 
-## 📄 License
 
-This project is open-source and available under the **MIT License**.
-
-```
-```
